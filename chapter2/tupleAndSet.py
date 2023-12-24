@@ -13,7 +13,7 @@ print(type(members))
 
 # セット
 
-scores = {70, 80, 55, 80}
+scores = {70, 80, 55, 80} # 重複して80を格納することはできない
 scores.add(80)
 print(scores)
 print(f'要素数は{len(scores)}')
